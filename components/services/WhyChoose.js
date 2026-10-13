@@ -55,9 +55,14 @@ const WIDTHS = [320, 500, 768];
 /**
  * One entry per language, not per country.
  *
- * Only the fourth reason names a place, so only it carries a token. English
- * needs the possessive - "Muscat's EV Community" - which is why the token sits
- * before an apostrophe there and after "في" in Arabic.
+ * THE FOURTH REASON USED TO BE SOCIAL PROOF, and it was fabricated here.
+ * "Trusted by {{city}}'s EV Community" / "EV owners across {{city}} choose us"
+ * is a claim about a customer base, published on 78 pages of a site for a
+ * country EVS has never traded in. It is the one reason of the four that cannot
+ * be true before opening, so it is now the group's record, attributed to the
+ * group.
+ *
+ * Only that reason names a place, so only it carries a token.
  *
  * ⚠️ The Bengali is new copy with no live Bengali page to port from, so it has
  * had no native reviewer. Recorded in docs/PLATFORM.md with the rest of the bn
@@ -76,11 +81,11 @@ const COPY = {
     },
     allInOne: {
       title: "All-in-One Service Center",
-      text: "Repairs, paint, batteries, AC. We do it all in-house, saving you time and hassle.",
+      text: "Repairs, paint, batteries, AC - all under one roof, so a car is not shuttled between three shops.",
     },
     trusted: {
-      title: "Trusted by {{city}}’s EV Community",
-      text: "EV owners across {{city}} choose us for our speed, honesty, and deep EV know-how.",
+      title: "Backed by the EVS Group",
+      text: "The {{city}} centre opens with the tooling, the training and the procedures already running in EVS workshops across the Gulf.",
     },
   },
 
@@ -96,11 +101,11 @@ const COPY = {
     },
     allInOne: {
       title: "مركز خدمات شامل",
-      text: "إصلاحات، دهان، بطاريات، تكييف. نقدم كل شيء داخليًا، مما يوفر وقتك وجهدك.",
+      text: "الإصلاح والدهان والبطاريات والتكييف تحت سقف واحد، فلا تتنقل السيارة بين ثلاث ورش.",
     },
     trusted: {
-      title: "موثوق به من قبل مجتمع المركبات الكهربائية في {{city}}",
-      text: "يختارنا أصحاب المركبات الكهربائية في {{city}} لسرعتنا، أمانتنا، وخبرتنا العميقة في المركبات الكهربائية.",
+      title: "بدعم من مجموعة إي في إس",
+      text: "يفتتح مركز {{city}} بالأدوات والتدريب والإجراءات المعمول بها فعلاً في ورش إي في إس في الخليج.",
     },
   },
 

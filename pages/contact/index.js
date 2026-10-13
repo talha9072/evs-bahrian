@@ -12,8 +12,8 @@ export default function ContactRoute({ locale, branch, cities }) {
         branch={branch}
         cities={cities}
         path="contact"
-        title="Contact EVS Bahrain — Opening Soon"
-        description="EVS is opening a specialist electric-vehicle service centre in Bahrain. Register your interest and we will tell you the moment we open."
+        title="Contact EVS Bahrain | Opening Soon in Manama"
+        description="EVS is opening a specialist EV service centre in Bahrain. No phone line yet - leave your details and we will email you the day the Manama centre opens."
         jsonLd={contactJsonLd(locale)}
       />
       <LaunchContact locale={locale} />

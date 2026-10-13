@@ -20,7 +20,12 @@ const SITE = (process.env.NEXT_PUBLIC_SITE_URL || "https://evsbah.com").replace(
 const href = (locale, path) => {
   const clean = path.replace(/^\/+/, "");
   const prefix = locale === DEFAULT_LOCALE ? "" : `/${locale}`;
-  return `${SITE}${prefix}${clean ? `/${clean}` : ""}`;
+  /* THE HOME PAGE KEEPS ITS TRAILING SLASH. localePath() returns "/" for an
+     empty path, so every page canonical and hreflang reads
+     https://evsbah.com/ - and this returned it without the slash, so the
+     sitemap and the page disagreed about the home URL. The only such
+     disagreement on the site. */
+  return `${SITE}${prefix}${clean ? `/${clean}` : prefix ? "" : "/"}`;
 };
 
 /** The fixed routes this deployment serves. */

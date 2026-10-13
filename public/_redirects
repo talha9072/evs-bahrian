@@ -39,9 +39,11 @@
 /Franchise                   /franchise             301
 /ar/Franchise                /ar/franchise          301
 
-# ------------------------------------------------------------- warranty PDFs
-/wp-content/uploads/2022/08/TESLA-WARRANTY-INFO.pdf   /TESLA-WARRANTY-INFO-compressed.pdf    301
-/wp-content/uploads/2022/08/EVS-WARRANTY-INFO-VW.pdf  /EVS-WARRANTY-INFO-VW-compressed.pdf   301
+# -------------------------------------------- warranty PDFs: none, on purpose
+# The UAE file redirects two old WordPress PDF paths to /TESLA-WARRANTY-INFO-
+# compressed.pdf and /EVS-WARRANTY-INFO-VW-compressed.pdf. This site has no
+# warranty section and no PDFs, so both rules were a 301 straight into a 404
+# and are deleted. Do not copy them back without copying the files.
 
 # ------------------------------------------------------- old service pages
 # The pre-Next site had a flat page per service. They are service leaves now.
@@ -76,14 +78,12 @@
 /franchise-enquiries         /franchise             301
 /ev-service                  /services              301
 /ev-service/                 /services              301
-/blogs/                      /blog                  301
 
 # --------------------------------------------------------- pre-Next .html URLs
 # The site before this one served .html files. Google still has them queued and
 # every one of them was a 404 until now; each has a live equivalent.
 /index.html                        /                      301
 /contact.html                      /contact               301
-/blog.html                         /blog                  301
 /zeekr.html                        /zeekr                 301
 /tesla/model-s.html                /tesla/model-s         301
 /tesla/model-x.html                /tesla/model-x         301
@@ -94,20 +94,8 @@
 /ar/contact.html                   /ar/contact            301
 /ar/car-engine-refurbishment.html  /ar/services/mechanical/transmission-drive-unit-repairs  301
 
-# ------------------------------------------------------------------ blog
-# A slug edited in the panel leaves the old URL behind. This post no longer
-# exists in any country, so the listing is the honest destination — and /blog
-# is one of the few blog URLs that IS true on all three sites.
-#
-# ANYTHING POINTING AT A SPECIFIC POST BELONGS IN next.config.mjs, NOT HERE.
-# Blog posts carry a `countries` column: evsuae.com publishes 192 of them,
-# Oman 10, Qatar 16. Two slug redirects were briefly added here aimed at a
-# UAE-only post, and on the other two sites they were a 301 into a 404 — the
-# very fault the rest of this file had just been cleaned of. They now live in
-# `redirects()` in next.config.mjs, which knows the branch at build time.
-/blog/ecu-and-sensor-replacements-ev     /blog                                           301
-/ar/blog/ecu-and-sensor-replacements-ev  /ar/blog                                        301
-
-# One malformed URL Google picked up somewhere. Sent straight to /blog rather
-# than via /blogs/, which was an extra hop for no reason.
-/blog/Y29tbW9uLW                   /blog                  301
+# ------------------------------------------------- blog: none, on purpose
+# Five rules here pointed at /blog and /ar/blog. There is no blog on this
+# deployment - lib/blog-posts.js is a stub and no route is built - so each one
+# was a 301 into a 404. Deleted. When a Bahrain blog does launch, the rules
+# come back WITH the section, not before it.

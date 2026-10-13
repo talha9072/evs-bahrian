@@ -12,8 +12,8 @@ export default function ContactRoute({ locale, branch, cities }) {
         branch={branch}
         cities={cities}
         path="contact"
-        title="تواصل مع إي في إس البحرين — قريباً"
-        description="إي في إس تفتتح قريباً مركزاً متخصصاً لصيانة السيارات الكهربائية في البحرين. سجّل اهتمامك وسنبلغك فور الافتتاح."
+        title="تواصل مع إي في إس البحرين | قريباً في المنامة"
+        description="إي في إس تفتتح قريباً مركزاً متخصصاً لصيانة السيارات الكهربائية في البحرين. لا يوجد خط هاتف بعد — اترك بياناتك وسنراسلك يوم افتتاح مركز المنامة."
         jsonLd={contactJsonLd(locale)}
       />
       <LaunchContact locale={locale} />

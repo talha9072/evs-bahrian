@@ -1,0 +1,121 @@
+{
+  "_comment": "Copy and FAQs for /contact. The page has no phone and no address by design, so its job is to answer the questions somebody would otherwise ring to ask — which is also what gives it something to rank for.",
+
+  "en": {
+    "eyebrow": "Opening soon",
+    "heading": "EVS is coming to Bahrain.",
+    "lead": "We build specialist electric-vehicle workshops — high-voltage diagnostics, battery health, software and bodywork — and Bahrain is next.",
+    "body": "The centre is not open yet, so there is no number to call and no address to visit. We would rather say that plainly than publish a placeholder. Leave your details and we will email you once, on the day we open.",
+
+    "formTitle": "Tell us when to reach you",
+    "name": "Your name",
+    "email": "Email address",
+    "car": "What do you drive?",
+    "carHint": "e.g. BYD Atto 3, Tesla Model Y",
+    "topic": "What is this about?",
+    "topics": ["Tell me when you open", "A question about my car", "Franchise enquiry", "Something else"],
+    "message": "Anything you want us to know",
+    "submit": "Send",
+    "sending": "Sending",
+    "errorTitle": "That did not send.",
+    "errorBody": "Something between your browser and us dropped the message, and we would rather tell you than pretend. Nothing you typed is lost — try the button again, or email us directly and it reaches the same people.",
+    "note": "We will only use this to reply. No newsletter, no list, nobody else.",
+
+    "asideTitle": "What happens next",
+    "steps": [
+      { "title": "One email, on opening day", "body": "Not a newsletter. We write once, when the Bahrain centre actually opens its doors." },
+      { "title": "A question gets a real answer", "body": "If you ask something specific about your car, a technician replies — not a template." },
+      { "title": "Nothing is shared", "body": "Your details stay with EVS. We do not sell, rent or pass them to anyone." }
+    ],
+
+    "directTitle": "Prefer email?",
+    "directBody": "You can write to the EVS group mailbox directly and it will reach the same people.",
+
+    "faqTitle": "Questions people ask first",
+    "faqs": [
+      {
+        "q": "When does EVS Bahrain open?",
+        "a": "We have not announced a date. The centre is in preparation, and the honest answer is that we would rather tell you the day it happens than publish a date we might miss. Leave your email on this page and you will be told first."
+      },
+      {
+        "q": "Where in Bahrain will the centre be?",
+        "a": "The location is not confirmed publicly yet. Bahrain is roughly 780 square kilometres, so unlike Saudi Arabia or the UAE a single properly equipped workshop can serve the whole country — Manama, Riffa, Muharraq, Salmabad, Sitra and Isa Town are all within reach of one site."
+      },
+      {
+        "q": "Can I book a service now?",
+        "a": "Not yet. There is no workshop to bring a car to, and we will not take a booking we cannot honour. What you can do is register on this page, and we will contact you as soon as the bay is open."
+      },
+      {
+        "q": "Do you work on my car?",
+        "a": "If it is electric or plug-in hybrid, almost certainly. EVS centres cover BYD, Tesla, BMW, Hyundai, Kia, Mercedes-Benz and the wider Chinese and European ranges — high-voltage battery work, drive units, thermal systems, software and region coding, plus body and paint. The brands page lists what we are set up for."
+      },
+      {
+        "q": "Is there a phone number?",
+        "a": "Not in Bahrain, not yet. Publishing a number nobody answers, or a number that rings in another country, wastes your time and ours. When the centre opens it will have its own line and its own address, and both will appear here."
+      },
+      {
+        "q": "I want to run an EVS centre in Bahrain. Who do I talk to?",
+        "a": "Franchise applications are handled by EVS Worldwide rather than by a country site, because the territory review, the NDA and the qualifying all sit there. Our franchise page explains the Bahrain case and links straight through to the application."
+      }
+    ]
+  },
+
+  "ar": {
+    "eyebrow": "قريباً",
+    "heading": "إي في إس قادمة إلى البحرين.",
+    "lead": "نبني مراكز متخصصة في صيانة السيارات الكهربائية — تشخيص الجهد العالي، وصحة البطارية، والبرمجيات، والهيكل والصبغ — والبحرين هي المحطة التالية.",
+    "body": "المركز لم يفتتح بعد، لذا لا يوجد رقم للاتصال ولا عنوان للزيارة. ونفضّل قول ذلك بوضوح على نشر معلومات مؤقتة. اترك بياناتك وسنراسلك مرة واحدة، يوم الافتتاح.",
+
+    "formTitle": "أخبرنا كيف نصل إليك",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "car": "ما السيارة التي تقودها؟",
+    "carHint": "مثال: بي واي دي آتو 3، تسلا موديل Y",
+    "topic": "ما موضوع رسالتك؟",
+    "topics": ["أبلغني عند الافتتاح", "سؤال عن سيارتي", "استفسار عن الامتياز", "شيء آخر"],
+    "message": "أي شيء تود إخبارنا به",
+    "submit": "إرسال",
+    "sending": "جارٍ الإرسال",
+    "errorTitle": "لم يتم الإرسال.",
+    "errorBody": "حدث خلل بين متصفحك وبيننا فلم تصل رسالتك، ونفضل إخبارك بذلك. ما كتبته لم يُفقد — جرّب الزر مرة أخرى، أو راسلنا بالبريد مباشرة فيصل إلى الأشخاص أنفسهم.",
+    "note": "سنستخدم هذه البيانات للرد فقط. بلا نشرات بريدية، وبلا مشاركة مع أي جهة.",
+
+    "asideTitle": "ماذا يحدث بعد ذلك",
+    "steps": [
+      { "title": "رسالة واحدة، يوم الافتتاح", "body": "ليست نشرة بريدية. نكتب مرة واحدة، حين يفتح مركز البحرين أبوابه فعلاً." },
+      { "title": "السؤال يلقى جواباً حقيقياً", "body": "إن سألت سؤالاً محدداً عن سيارتك، يرد عليك فني — لا رسالة جاهزة." },
+      { "title": "لا نشارك بياناتك", "body": "بياناتك تبقى لدى إي في إس. لا نبيعها ولا نؤجرها ولا نمررها لأحد." }
+    ],
+
+    "directTitle": "تفضّل البريد الإلكتروني؟",
+    "directBody": "يمكنك مراسلة بريد مجموعة إي في إس مباشرة وسيصل إلى الأشخاص أنفسهم.",
+
+    "faqTitle": "أسئلة يبدأ بها الناس",
+    "faqs": [
+      {
+        "q": "متى تفتتح إي في إس البحرين؟",
+        "a": "لم نعلن تاريخاً. المركز قيد التجهيز، والجواب الصادق أننا نفضّل إخبارك يوم حدوث ذلك على نشر تاريخ قد لا نلتزم به. اترك بريدك في هذه الصفحة وستكون أول من يعلم."
+      },
+      {
+        "q": "أين سيكون المركز في البحرين؟",
+        "a": "الموقع لم يُعلن بعد. ومساحة البحرين نحو 780 كيلومتراً مربعاً، لذا وخلافاً للسعودية أو الإمارات تستطيع ورشة واحدة مجهزة جيداً خدمة الدولة كاملة — المنامة والرفاع والمحرق وسلماباد وسترة ومدينة عيسى جميعها في المتناول من موقع واحد."
+      },
+      {
+        "q": "هل يمكنني حجز موعد صيانة الآن؟",
+        "a": "ليس بعد. لا توجد ورشة تُحضر إليها السيارة، ولن نقبل حجزاً لا نستطيع الوفاء به. ما يمكنك فعله هو التسجيل في هذه الصفحة، وسنتواصل معك فور جاهزية المركز."
+      },
+      {
+        "q": "هل تعملون على سيارتي؟",
+        "a": "إن كانت كهربائية أو هجينة قابلة للشحن، فالأرجح نعم. تغطي مراكز إي في إس بي واي دي وتسلا وبي إم دبليو وهيونداي وكيا ومرسيدس-بنز والتشكيلات الصينية والأوروبية الأوسع — أعمال بطاريات الجهد العالي ووحدات الدفع والأنظمة الحرارية والبرمجيات وضبط الإقليم، إضافة إلى الهيكل والصبغ."
+      },
+      {
+        "q": "هل يوجد رقم هاتف؟",
+        "a": "ليس في البحرين، ليس بعد. فنشر رقم لا يرد عليه أحد، أو رقم يرن في دولة أخرى، يضيّع وقتك ووقتنا. وعند افتتاح المركز سيكون له خطه وعنوانه، وسيظهران هنا."
+      },
+      {
+        "q": "أريد إدارة مركز إي في إس في البحرين. بمن أتواصل؟",
+        "a": "طلبات الامتياز تديرها إي في إس العالمية لا المواقع القُطرية، لأن مراجعة المنطقة واتفاقية السرية والتأهيل كلها هناك. وصفحة الامتياز لدينا تشرح حالة البحرين وتربطك مباشرة بالطلب."
+      }
+    ]
+  }
+}

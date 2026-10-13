@@ -1,0 +1,260 @@
+[
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "Our technicians assist Avatr 11 owners in {{areas}} with care aligned to manufacturer standards to help maintain long-term efficiency and reliability."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "Whether you’re in {{areas}}, EVS is your trusted service provider."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "You can bring your Rox electric vehicle to EVS for servicing under warranty at our locations in {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "We provide reliable support for ROX 01 owners across {{country_the}}, including {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "EVS is the leading Rox 01 Service Center, providing trusted care across {{country_the}}, including {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "EVS offers Rox 01 maintenance and warranty repair support across {{country_the}}, including {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "Our technicians support Avatr 12 owners across {{areas}} with care aligned to manufacturer standards to ensure optimal performance and long-term reliability."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "Whether you are in {{areas}}, EVS has you covered."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "We provide support for ZEEKR X owners across {{country_the}}, including {{areas}}, helping ensure consistent performance through skilled diagnostics and care."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "Whether you’re in {{areas}}, EVS is your trusted partner."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "We assist electric vehicle owners across {{areas}} with diagnostics, repairs, and ongoing care designed to meet manufacturer guidelines."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "Avatr electric vehicles can be serviced under warranty at EVS locations in {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "Whether you’re looking for a routine check or need a repair covered under your BYD HAN warranty, EVS is your trusted partner in {{country_the}}, serving {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "You can service your BYD electric vehicle under warranty at EVS locations in {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "EVS provides expert Tesla warranty servicing in {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "We serve XPENG EV owners across {{country_the}} — including {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "en",
+  "n": 1,
+  "sentence": "Our experienced team assists XPENG drivers throughout {{country_the}}, including {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "نخدم عملاءنا في {{areas}} لضمان كفاءة طويلة الأمد وأداء موثوق في كل رحلة."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "فريقنا مجهز للتعامل مع الصيانة الدورية واحتياجات الضمان المتعلقة ببي واي دي آتو 3 في {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "سواء كنت في {{areas}}، إي في إس هي مزود الخدمة الموثوق الخاص بك."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "يمكنك إحضار سيارة روكس الكهربائية الخاصة بك إلى إي في إس للصيانة تحت الضمان في مواقعنا في {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "نحن نقدم دعمًا موثوقًا لمالكي روكس 01 في جميع أنحاء {{country}}، بما في ذلك {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "إي في إس هو مركز خدمة روكس 01 الرائد، يوفر رعاية موثوقة في جميع أنحاء {{country}}، بما في ذلك {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "تقدم إي في إس خدمات صيانة وإصلاح الضمان لروكس 01 في جميع أنحاء {{country}}، بما في ذلك {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "نخدم عملاءنا في {{areas}} بخبرة وثقة."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "يدعم فنيونا أصحاب أفاتر 12 في {{areas}} برعاية تتماشى مع معايير الشركة المصنعة للحفاظ على الأداء الأمثل والموثوقية."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "فريقنا الماهر مجهز لتلبية احتياجات سيارتك الفريدة، مما يضمن بقاءها في حالة ممتازة سواء كنت في {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "سواء كنت في {{areas}}، إي في إس تدعمك."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "نخدم عملاءنا في {{areas}} بكل احترافية وثقة."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "يمكنك صيانة سيارة زيكر الكهربائية الخاصة بك تحت الضمان لدى إي في إس في مواقعنا داخل {{country}}، بما في ذلك {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "نحن نقدم الدعم لمالكي زيكر إكس في جميع أنحاء {{country}}، بما في ذلك {{areas}}، مما يضمن أداءً متسقًا من خلال تشخيص ورعاية ماهرة."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "سواء كنت في {{areas}}، إي في إس هي شريكك الموثوق للحفاظ على تشغيل زيكر إكس بسلاسة."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "نساعد أصحاب المركبات الكهربائية في {{areas}} من خلال التشخيص، الإصلاحات، والعناية المستمرة المصممة وفقًا لإرشادات الشركة المصنعة."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "يمكن صيانة المركبات الكهربائية من أفاتر تحت الضمان في مواقع إي في إس في {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "فريقنا يساعد مالكي بي واي دي هان في {{areas}} برعاية تتماشى مع معايير الشركة المصنعة لضمان الموثوقية والأداء المستمر."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "سواء كنت تبحث عن فحص روتيني أو إصلاح مشمول بالضمان لبي واي دي هان، فإن إي في إس هي شريكك الموثوق في {{country}}، ونخدم {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "يمكنك صيانة سيارة بي واي دي الكهربائية تحت الضمان في مواقع إي في إس في {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "تقدم إي في إس خدمة ضمان متخصصة لتيسلا في {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "سواء كنت بحاجة إلى صيانة دورية، تشخيص شامل، أو دعم في نظام البطارية Blade من بي واي دي، فإن إي في إس هي وجهتك الأولى في {{areas}}."
+ },
+ {
+  "file": "car_brands",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "نقدم خدمات إكسبينج في جميع أنحاء {{country}}، بما في ذلك {{areas}}."
+ },
+ {
+  "file": "services",
+  "locale": "en",
+  "n": 1,
+  "sentence": "We have workshops across {{areas}}."
+ },
+ {
+  "file": "pages",
+  "locale": "en",
+  "n": 1,
+  "sentence": "Discover EVS service centres across {{country_the}}, including {{areas}}."
+ },
+ {
+  "file": "pages",
+  "locale": "ar",
+  "n": 1,
+  "sentence": "اكتشف جميع فروع إي في إس في {{country}}، بما في ذلك {{areas}}."
+ }
+]

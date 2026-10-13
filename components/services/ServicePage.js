@@ -34,9 +34,9 @@ import Reveal from "@/components/modern/Reveal";
  */
 
 const LABELS = {
-  en: { tag: "EVS", cta: "Book Your EV Check", contact: "/contact", faq: "Frequently Asked Questions", evServices: "Electric Vehicle Services" },
-  ar: { tag: "إي في إس", cta: "احجز فحص مركبتك الكهربائية", contact: "/ar/contact", faq: "الأسئلة الشائعة", evServices: "خدمات المركبات الكهربائية" },
-  "ar-IQ": { tag: "إي في إس", cta: "احجز فحص مركبتك الكهربائية", contact: "/ar-IQ/contact", faq: "الأسئلة الشائعة", evServices: "خدمات المركبات الكهربائية" },
+  en: { tag: "EVS", cta: "Tell Me When You Open", contact: "/contact", faq: "Frequently Asked Questions", evServices: "Electric Vehicle Services" },
+  ar: { tag: "إي في إس", cta: "أبلغني عند افتتاح المركز", contact: "/ar/contact", faq: "الأسئلة الشائعة", evServices: "خدمات المركبات الكهربائية" },
+  "ar-IQ": { tag: "إي في إس", cta: "أبلغني عند افتتاح المركز", contact: "/ar-IQ/contact", faq: "الأسئلة الشائعة", evServices: "خدمات المركبات الكهربائية" },
   bn: { tag: "EVS", cta: "আপনার ইভি চেক বুক করুন", contact: "/bn/contact", faq: "সাধারণ জিজ্ঞাসা", evServices: "ইলেকট্রিক গাড়ির সার্ভিস" },
 };
 

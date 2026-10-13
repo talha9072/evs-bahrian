@@ -41,9 +41,9 @@ const AR = {
   heroSubtitle: "مركز خدمات المركبات الكهربائية المتخصص في {{country}}",
   heroTitle: "حيث يلتقي الابتكار بالعناية",
   heroDescription: "خدمات المركبات الكهربائية مصممة لطرق {{country}}",
-  heroCtaLabel: "احجز فحص مركبتك الكهربائية",
+  heroCtaLabel: "أبلغني عند افتتاح المركز",
   listTitle: "جميع الخدمات",
-  bookLabel: "احجز فحص مركبتك الكهربائية",
+  bookLabel: "أبلغني عند افتتاح المركز",
 };
 
 // Exported so verification scripts can assert against the real copy instead
@@ -57,7 +57,7 @@ export const COPY = {
     heroSubtitle: "Expert Electric Vehicle Service Center in {{country}}",
     heroTitle: "Where Innovation Meets Care",
     heroDescription: "EV Service Crafted for the Roads of {{country}}",
-    heroCtaLabel: "Book Your EV Check",
+    heroCtaLabel: "Tell Me When You Open",
     listTitle: "All Services",
     bookLabel: "Book your EV Check",
   },

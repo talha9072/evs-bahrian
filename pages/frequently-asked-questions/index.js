@@ -41,7 +41,7 @@ export default function Faqs({ page, faqs, locale = DEFAULT_LOCALE }) {
             domain. Built from this branch's site_url instead. */}
         <meta
           property="og:image"
-          content={`${site}/.netlify/images?url=/img/graph-img.webp`}
+          content={`${site}/img/graph-img.webp`}
         />
 
         {/* THE FOUR TAGS THIS PAGE WAS MISSING. Because it writes its own head
@@ -59,7 +59,7 @@ export default function Faqs({ page, faqs, locale = DEFAULT_LOCALE }) {
         <meta name="twitter:description" content={page.meta_description} />
         <meta
           name="twitter:image"
-          content={`${site}/.netlify/images?url=/img/graph-img.webp`}
+          content={`${site}/img/graph-img.webp`}
         />
 
         {/* THE CROSS-DOMAIN CLUSTER - see lib/hreflang.js. This page writes its

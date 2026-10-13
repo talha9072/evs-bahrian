@@ -37,7 +37,7 @@ export default function LocaleFaqs({ page, faqs, locale }) {
         {/* From this branch's domain, not the UAE's - see the English route. */}
         <meta
           property="og:image"
-          content={`${site}/.netlify/images?url=/img/graph-img.webp`}
+          content={`${site}/img/graph-img.webp`}
         />
 
         <meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
@@ -45,7 +45,7 @@ export default function LocaleFaqs({ page, faqs, locale }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={page.meta_title} />
         <meta name="twitter:description" content={page.meta_description} />
-        <meta name="twitter:image" content={`${site}/.netlify/images?url=/img/graph-img.webp`} />
+        <meta name="twitter:image" content={`${site}/img/graph-img.webp`} />
 
         {/* THE CROSS-DOMAIN CLUSTER - see lib/hreflang.js. This page writes its
             own head, so it asks for the alternates rather than inheriting them

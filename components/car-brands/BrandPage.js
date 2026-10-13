@@ -66,8 +66,8 @@ const HUB_LABEL = {
  * code for the same reason their table is: page chrome, not content.
  */
 const HERO_CTA = {
-  en: "Book Your EV Check",
-  ar: "احجز فحص مركبتك الكهربائية",
+  en: "Tell Me When You Open",
+  ar: "أبلغني عند افتتاح المركز",
   bn: "আপনার ইভি চেক বুক করুন",
 };
 

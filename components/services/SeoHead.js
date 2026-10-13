@@ -74,9 +74,14 @@ export default function SeoHead({
      a relative path against. An absolute stored value is already servable and is
      left alone; a repo path goes through the image CDN, the same rule
      `assetUrl` follows for every other image. */
-  const ogImage = /^https?:\/\//i.test(image)
-    ? image
-    : `${branch.site_url}/.netlify/images?url=${image}`;
+  /* NOT THROUGH /.netlify/images. robots.txt on this site disallows
+     /.netlify/ — Netlify's own endpoints are not search entry points and were
+     eating crawl budget — and og:image went through exactly that path. So the
+     one social image shared by all 306 pages sat behind a Disallow and
+     Googlebot-Image could never fetch it; the file under /img/ serves fine on
+     its own. A repo path is now emitted directly; an absolute stored value is
+     still passed through untouched. */
+  const ogImage = /^https?:\/\//i.test(image) ? image : `${branch.site_url}${image}`;
 
   return (
     <>

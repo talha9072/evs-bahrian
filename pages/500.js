@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 /**
  * A custom 500.
@@ -23,9 +24,9 @@ export default function ServerError() {
           <p className="mt-6 text-lead text-content-secondary">
             That is on our side, not yours. Try again in a moment.
           </p>
-          <a href="/" className="evs-btn evs-btn-primary evs-btn-lg mt-10">
+          <Link href="/" className="evs-btn evs-btn-primary evs-btn-lg mt-10">
             Back to the home page
-          </a>
+          </Link>
         </div>
       </section>
     </>

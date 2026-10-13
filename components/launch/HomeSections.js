@@ -115,7 +115,13 @@ export default function HomeSections({ locale = "en" }) {
             return (
               <a
                 key={slug}
-                href={href(`ev-car-brands/${slug}`)}
+                /* THE SHORT FORM, which is the canonical one. Brand pages live
+                   at /byd and canonicalise there; /ev-car-brands/byd is only
+                   the internal rewrite target and is deliberately kept out of
+                   the sitemap. The home page is the strongest internal-link
+                   source on the site and it was pointing all six cards at the
+                   duplicate. */
+                href={href(slug)}
                 className="evs-card evs-card-interactive group flex flex-col overflow-hidden"
               >
                 <div className="relative aspect-[4/3] overflow-hidden bg-surface-elevated">

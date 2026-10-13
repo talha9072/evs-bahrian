@@ -59,15 +59,39 @@ export default function StatsBand({
      why that row uses `display`. So `display` wins where it exists and the
      numeric pair is composed where it does not. No migration: there is nothing
      to normalise towards. */
-  const stats = [
-    {
-      ...t.first,
-      label: Object.keys(tokens).length ? interpolate(t.first.label, tokens) : t.firstNoPlace,
-    },
-    branchCount != null && { value: branchCount, prefix: "", label: t.branches },
-    { ...t.staff },
-    { ...t.customers },
-  ].filter(Boolean);
+  /*
+   * A BAKED `items` ARRAY WINS OVER THE FOUR INHERITED KEYS, and on this
+   * deployment it is what ships.
+   *
+   * The inherited shape is `first / branches / staff / customers`, and three of
+   * those four are facts about a TRADING business: a staff count, a customer
+   * count, and a number of branches. EVS has not opened in Bahrain, so the band
+   * published "+200 Experienced Staff" and "21452 Happy Customers" - the UAE
+   * group's figures, presented as Bahrain's own - on 584 pages including the
+   * home page, with a lit "0 Branches" box beside them. The same class of fault
+   * that lib/sections.js was written to stop Oman and Qatar committing, which is
+   * why the comment there promises branch overrides; this fork has no database,
+   * so there was no override to inherit.
+   *
+   * `items` is an ordered list of figures that are TRUE before opening: counted
+   * out of this build's own content, or facts about the group that say so. When
+   * Bahrain opens and the rows come from the platform database again, drop
+   * `items` and the four keys below take over unchanged.
+   */
+  const stats = Array.isArray(t.items)
+    ? t.items.map((item) => ({ ...item, label: interpolate(item.label, tokens) }))
+    : [
+        {
+          ...t.first,
+          label: Object.keys(tokens).length ? interpolate(t.first.label, tokens) : t.firstNoPlace,
+        },
+        /* `> 0`, NOT `!= null`. A branch count of zero is a real answer here -
+           getLocations() returns [] until there is a workshop - and `!= null`
+           let it through to render the figure "0" under the label "Branches". */
+        branchCount > 0 && { value: branchCount, prefix: "", label: t.branches },
+        { ...t.staff },
+        { ...t.customers },
+      ].filter(Boolean);
 
   return (
     <section className={`evs-shell evs-section-sm ${className}`}>
