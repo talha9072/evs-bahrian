@@ -1,0 +1,85 @@
+{
+  "branch": {
+    "slug": "bahrain",
+    "name": "EVS Bahrain",
+    "country_code": "BH",
+    "country_name": {
+      "en": "Bahrain",
+      "ar": "البحرين"
+    },
+    "country_name_the": null,
+    "site_url": "https://evsbah.com",
+    "support_phone": null,
+    "support_phone_display": null,
+    "whatsapp_number": null,
+    "support_email": null,
+    "contact_path": "/contact",
+    "social_links": {},
+    "opening_hours": {},
+    "google_reviews_url": null,
+    "google_reviews_count": null,
+    "instagram_url": null,
+    "locales": [
+      "en",
+      "ar"
+    ],
+    "is_published": true,
+    "coming_soon": true
+  },
+  "cities": [
+    {
+      "slug": "manama",
+      "name": {
+        "en": "Manama",
+        "ar": "المنامة"
+      },
+      "is_primary": true,
+      "sort_order": 1
+    },
+    {
+      "slug": "riffa",
+      "name": {
+        "en": "Riffa",
+        "ar": "الرفاع"
+      },
+      "is_primary": false,
+      "sort_order": 2
+    },
+    {
+      "slug": "muharraq",
+      "name": {
+        "en": "Muharraq",
+        "ar": "المحرق"
+      },
+      "is_primary": false,
+      "sort_order": 3
+    },
+    {
+      "slug": "salmabad",
+      "name": {
+        "en": "Salmabad",
+        "ar": "سلماباد"
+      },
+      "is_primary": false,
+      "sort_order": 4
+    },
+    {
+      "slug": "sitra",
+      "name": {
+        "en": "Sitra",
+        "ar": "سترة"
+      },
+      "is_primary": false,
+      "sort_order": 5
+    },
+    {
+      "slug": "isa-town",
+      "name": {
+        "en": "Isa Town",
+        "ar": "مدينة عيسى"
+      },
+      "is_primary": false,
+      "sort_order": 6
+    }
+  ]
+}

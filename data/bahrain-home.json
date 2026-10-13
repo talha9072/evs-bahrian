@@ -1,0 +1,147 @@
+{
+  "_comment": "Home-page sections written for Bahrain search demand. Targets, from Keyword Planner (Bahrain, Sep 2025-Aug 2026): byd bahrain 1K-10K, tesla bahrain 100-1K, car battery bahrain 100-1K, car service/garage/repair bahrain 10-100, ev charging stations bahrain 10-100. Nothing here appears on another EVS site.",
+
+  "en": {
+    "intro": {
+      "eyebrow": "EV service in Bahrain",
+      "heading": "The island is going electric faster than its workshops are.",
+      "body": [
+        "Bahrain has one of the densest vehicle populations in the Gulf and a charging network expanding toward a planned two hundred public points, mapped nationally at goEV.bh. What it does not yet have is independent capacity to service the cars arriving on the back of that.",
+        "Almost every electric car on the island is still inside its manufacturer warranty, so the independent work has not started. It will: a warranty runs out, an imported car needs software it did not come with, a battery that has spent four summers at forty degrees stops holding what it used to. That is the gap EVS is opening in Bahrain to fill.",
+        "We are a specialist, not a general garage. High-voltage diagnostics, battery state-of-health testing, drive units, thermal management, software and region coding — plus the ordinary work every car needs, done by people who will not disconnect the wrong thing on an electric one."
+      ]
+    },
+
+    "brands": {
+      "eyebrow": "Brands",
+      "heading": "The cars we are set up for.",
+      "body": "BYD is the most-searched car brand in Bahrain by a wide margin. Tesla arrives mostly through importers and across the King Fahd Causeway. Both need things a general workshop cannot do — and so do the German and Korean EVs now common on the island.",
+      "featured": ["byd", "tesla", "bmw", "hyundai", "kia", "mercedes-benz"],
+      "cta": "All brands we service"
+    },
+
+    "charging": {
+      "eyebrow": "Charging",
+      "heading": "Charging in Bahrain, honestly.",
+      "body": [
+        "The public network is real and growing. goEV.bh maps it live, the national roadmap targets more than two hundred points, and EVzone's site near the Zain tower — built with Huawei, liquid-cooled for Gulf conditions — runs up to 360 kW. There are free Tesla destination chargers in the basement at City Centre Bahrain, Type 1 at 3.2 kW, usable by any car.",
+        "What matters for the life of your battery is not the fast chargers, though. It is where the car sits for the other twenty-three hours. A pack left at full charge in an open car park at sixty degrees ages faster than one that spends its life on a home wall box at a sensible state of charge — and in Bahrain that difference compounds every summer."
+      ],
+      "points": [
+        "A home wall box is worth more to battery life than any public fast charger",
+        "Avoid leaving the car at 100% in the heat; charge to full for a trip, not for a week of standing",
+        "Shade or underground parking does more for a pack than careful driving does"
+      ]
+    },
+
+    "areas": {
+      "eyebrow": "Coverage",
+      "heading": "One centre covers the island.",
+      "body": "Bahrain is roughly 780 square kilometres. Unlike Saudi Arabia or the UAE, that means a single properly equipped workshop can serve the whole country — so there is no reason to accept a long wait or a half-finished job from somewhere that only handles part of an electric car.",
+      "list": ["Manama", "Riffa", "Muharraq", "Salmabad", "Sitra", "Isa Town", "Hidd", "Budaiya"]
+    },
+
+    "faqs": {
+      "eyebrow": "Questions",
+      "heading": "Before you ask.",
+      "items": [
+        {
+          "q": "Is EVS open in Bahrain yet?",
+          "a": "Not yet. The Bahrain centre is in preparation and this site is how you can follow it. There is no address or phone number to give you today, and we would rather say that plainly than publish a placeholder. Register your interest and we will tell you the moment we open."
+        },
+        {
+          "q": "Why won't my electric car start even though the battery shows charge?",
+          "a": "Because the charge reading refers to the high-voltage pack, and the thing that wakes the car up is the separate 12-volt battery under the bonnet. A flat 12-volt leaves you with a car reporting plenty of range that will not respond at all. Gulf heat shortens its life considerably — a battery that lasts four years in Europe often manages two or three here. It is the most common cause of a dead EV and the cheapest to fix."
+        },
+        {
+          "q": "Does a BYD plug-in hybrid still need oil changes in Bahrain?",
+          "a": "Yes. The DM-i models — Qin Plus, Song Plus and others — carry a petrol engine with its own oil, filters, spark plugs and cooling circuit alongside the high-voltage system. Owners who bought expecting electric-car running costs routinely under-budget for this. Only the fully electric BYDs remove it."
+        },
+        {
+          "q": "Can an independent workshop service my car without voiding the warranty?",
+          "a": "For wear items, accident and cosmetic damage, tyres, air conditioning and software on imported cars, yes. A manufacturer cannot cancel your entire warranty because an independent fitted tyres or repaired a panel; it can decline a claim on a component where independent work caused the failure. Keep every invoice and a written record of the work."
+        },
+        {
+          "q": "What should I check before buying an imported EV in Bahrain?",
+          "a": "Four things. Whether it is GCC specification, because cooling calibrated for a cooler climate is the common trap. Which software region the infotainment is on, which affects maps, apps and connectivity. Where the warranty is held and whether it covers the high-voltage battery. And an independent state-of-health test on the pack, because there is often no local dealer to arbitrate."
+        },
+        {
+          "q": "How does Bahrain's heat affect an EV battery?",
+          "a": "More than fast charging does. Sustained ambient load is the hardest thing a pack faces here, and a cooling circuit performing at eighty per cent throws no warning light — it simply ages the battery, and the owner finds out three years later as lost range. An annual thermal and high-voltage check matters more in Bahrain than in the markets these cars were validated in."
+        }
+      ]
+    }
+  },
+
+  "ar": {
+    "intro": {
+      "eyebrow": "صيانة السيارات الكهربائية في البحرين",
+      "heading": "الجزيرة تتحول إلى الكهرباء أسرع من ورشها.",
+      "body": [
+        "تملك البحرين واحدة من أكثف كثافات المركبات في الخليج، وشبكة شحن تتوسع نحو مئتي نقطة عامة مخطط لها، تُعرض على خريطة goEV.bh. وما ينقصها هو القدرة المستقلة على صيانة السيارات التي تصل مع هذا التوسع.",
+        "فمعظم السيارات الكهربائية في الجزيرة ما زالت ضمن ضمان الشركة الصانعة، ولذلك لم يبدأ العمل المستقل بعد. وسيبدأ: ينتهي ضمان، وتحتاج سيارة مستوردة برمجيات لم تأتِ بها، وبطارية قضت أربعة صيفيات عند أربعين درجة تتوقف عن حفظ ما كانت تحفظه. وهذه هي الفجوة التي تفتتح إي في إس في البحرين لسدّها.",
+        "نحن متخصصون لا ورشة عامة. تشخيص الجهد العالي، وفحص صحة البطارية، ووحدات الدفع، والإدارة الحرارية، والبرمجيات وضبط الإقليم — إضافة إلى الأعمال الاعتيادية التي تحتاجها كل سيارة، ينفذها من لن يفصل الشيء الخطأ في سيارة كهربائية."
+      ]
+    },
+
+    "brands": {
+      "eyebrow": "العلامات",
+      "heading": "السيارات التي نحن مجهزون لها.",
+      "body": "بي واي دي هي العلامة الأكثر بحثاً في البحرين بفارق كبير. وتسلا تصل غالباً عبر المستوردين وجسر الملك فهد. وكلتاهما تحتاج ما لا تستطيعه ورشة عامة — وكذلك السيارات الكهربائية الألمانية والكورية الشائعة الآن في الجزيرة.",
+      "featured": ["byd", "tesla", "bmw", "hyundai", "kia", "mercedes-benz"],
+      "cta": "كل العلامات التي نخدمها"
+    },
+
+    "charging": {
+      "eyebrow": "الشحن",
+      "heading": "الشحن في البحرين، بصراحة.",
+      "body": [
+        "الشبكة العامة حقيقية وتتوسع. تعرضها goEV.bh مباشرة، وتستهدف الخطة الوطنية أكثر من مئتي نقطة، وموقع EVzone قرب برج زين — المبني مع هواوي بتبريد سائل لظروف الخليج — يصل إلى 360 كيلوواط. وهناك شواحن تسلا مجانية في الطابق السفلي بسيتي سنتر البحرين.",
+        "لكن ما يهم عمر بطاريتك ليس الشواحن السريعة، بل أين تقف السيارة الساعات الثلاث والعشرين الأخرى. فبطارية تُترك ممتلئة في موقف مكشوف عند ستين درجة تتدهور أسرع من واحدة تقضي حياتها على شاحن منزلي بشحن معتدل."
+      ],
+      "points": [
+        "الشاحن المنزلي أنفع لعمر البطارية من أي شاحن سريع عام",
+        "تجنب ترك السيارة بشحن 100% في الحر؛ اشحنها بالكامل لرحلة لا لأسبوع وقوف",
+        "الظل أو الموقف المغطى يفعل للبطارية أكثر مما تفعله القيادة الحذرة"
+      ]
+    },
+
+    "areas": {
+      "eyebrow": "التغطية",
+      "heading": "مركز واحد يغطي الجزيرة.",
+      "body": "مساحة البحرين نحو 780 كيلومتراً مربعاً. وخلافاً للسعودية أو الإمارات، يعني ذلك أن ورشة واحدة مجهزة جيداً تخدم الدولة كاملة — فلا داعي لقبول انتظار طويل أو عمل ناقص من مكان يتعامل مع جزء من السيارة الكهربائية فقط.",
+      "list": ["المنامة", "الرفاع", "المحرق", "سلماباد", "سترة", "مدينة عيسى", "الحد", "البديع"]
+    },
+
+    "faqs": {
+      "eyebrow": "أسئلة",
+      "heading": "قبل أن تسأل.",
+      "items": [
+        {
+          "q": "هل افتتحت إي في إس في البحرين؟",
+          "a": "ليس بعد. مركز البحرين قيد التجهيز، وهذا الموقع هو وسيلتك لمتابعته. ولا يوجد عنوان أو رقم هاتف نعطيك إياه اليوم، ونفضّل قول ذلك بوضوح على نشر معلومات مؤقتة. سجّل اهتمامك وسنبلغك فور الافتتاح."
+        },
+        {
+          "q": "لماذا لا تعمل سيارتي الكهربائية رغم أن البطارية تُظهر شحناً؟",
+          "a": "لأن قراءة الشحن تخص بطارية الجهد العالي، أما ما يوقظ السيارة فهو بطارية 12 فولت المنفصلة تحت غطاء المحرك. وحرارة الخليج تقصّر عمرها: بطارية تدوم أربع سنوات في أوروبا كثيراً ما تدوم سنتين أو ثلاثاً هنا. وهي أشيع أسباب توقف السيارة وأرخصها إصلاحاً."
+        },
+        {
+          "q": "هل تحتاج بي واي دي الهجينة إلى تغيير زيت في البحرين؟",
+          "a": "نعم. طرازات DM-i — كين بلس وسونغ بلس وغيرهما — تحمل محرك بنزين بزيته وفلاتره وشمعاته ودائرة تبريده إلى جانب نظام الجهد العالي. وكثير ممن اشتروها متوقعين تكاليف سيارة كهربائية يقلّلون من ميزانية ذلك."
+        },
+        {
+          "q": "هل تُلغي الصيانة في مركز مستقل الضمان؟",
+          "a": "بالنسبة لقطع الاستهلاك وأضرار الحوادث والإطارات والتكييف وبرمجيات السيارات المستوردة، لا. فلا تستطيع الشركة الصانعة إلغاء ضمانك كاملاً لأن مركزاً مستقلاً ركّب إطارات أو أصلح قطعة هيكل. احتفظ بكل فاتورة وبسجل مكتوب للعمل."
+        },
+        {
+          "q": "ما الذي يجب فحصه قبل شراء سيارة كهربائية مستوردة في البحرين؟",
+          "a": "أربعة أمور: هل المواصفة خليجية، وعلى أي إقليم برمجي يعمل نظام الترفيه، وأين يُحفظ الضمان وهل يغطي بطارية الجهد العالي، وفحص مستقل لصحة البطارية لعدم وجود وكيل محلي يفصل في النزاع غالباً."
+        },
+        {
+          "q": "كيف تؤثر حرارة البحرين على بطارية السيارة الكهربائية؟",
+          "a": "أكثر مما يؤثر الشحن السريع. فالحمل الحراري المتواصل أقسى ما تواجهه البطارية هنا، ونظام تبريد يعمل بثمانين بالمئة من كفاءته لا يُشعل ضوء تحذير — بل يُهرم البطارية فقط، ويكتشف المالك ذلك بعد ثلاث سنوات في صورة مدى مفقود."
+        }
+      ]
+    }
+  }
+}

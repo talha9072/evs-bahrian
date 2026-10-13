@@ -1,0 +1,129 @@
+{
+  "_comment": "Local material that exists on no other EVS site. Keyed by page. Keys: brand:<slug>, service:<path>, and the two defaults. The point is that every page carries something true about Bahrain specifically, so none of them is a reworded copy of the UAE page.",
+
+  "brand:byd": {
+    "en": {
+      "heading": "BYD in Bahrain",
+      "body": "BYD is the most-searched car brand in Bahrain by a wide margin — between one and ten thousand searches a month, more than every other EV marque on the island combined. The range sold here runs from the Atto 3 and Dolphin through the Seal and Han to the Qin Plus and Song Plus plug-in hybrids, and the Sealion 7 and Shark 6 have since joined it.\n\nThat mix matters for servicing, because it is not all electric. The DM-i cars carry a petrol engine with its own oil, filters, plugs and cooling circuit alongside the high-voltage system — and owners who bought expecting electric-car running costs routinely under-budget for it. The fully electric cars have no engine at all, and almost all of their servicing is brake fluid, coolant, cabin filter, tyres and high-voltage checks.",
+      "points": [
+        "Blade LFP packs tolerate heat better than most chemistries, but the cooling circuit still does the work in a Bahraini summer",
+        "DM-i plug-in hybrids need full engine servicing — the single most under-budgeted cost on the brand",
+        "Imported cars often arrive on Chinese-market software, affecting maps, apps and connectivity"
+      ]
+    },
+    "ar": {
+      "heading": "بي واي دي في البحرين",
+      "body": "بي واي دي هي العلامة الأكثر بحثاً في البحرين بفارق كبير — بين ألف وعشرة آلاف بحث شهرياً، أكثر من كل العلامات الكهربائية الأخرى في الجزيرة مجتمعة. وتمتد التشكيلة المباعة هنا من آتو 3 ودولفين إلى سيل وهان وكين بلس وسونغ بلس الهجينة، ثم انضمت إليها سيلايون 7 وشارك 6.\n\nوهذا المزيج مهم للصيانة، لأنه ليس كهربائياً بالكامل. فسيارات DM-i تحمل محرك بنزين بزيته وفلاتره وشمعاته ودائرة تبريده إلى جانب نظام الجهد العالي — وكثير ممن اشتروها متوقعين تكاليف سيارة كهربائية يقلّلون من ميزانية ذلك.",
+      "points": [
+        "بطاريات بليد من نوع LFP تتحمل الحرارة أفضل من معظم الأنواع، لكن دائرة التبريد تبقى هي العامل الحاسم في صيف البحرين",
+        "الهجينة DM-i تحتاج صيانة محرك كاملة — وهي أكثر تكلفة يُغفل احتسابها في هذه العلامة",
+        "السيارات المستوردة تصل غالباً ببرمجيات السوق الصيني، ما يؤثر في الخرائط والتطبيقات والاتصال"
+      ]
+    }
+  },
+
+  "brand:tesla": {
+    "en": {
+      "heading": "Tesla in Bahrain",
+      "body": "Tesla has no official dealership in Bahrain. Cars reach the island through importers and private purchase, and a fair number cross the King Fahd Causeway from Saudi Arabia. That makes independent service less of a preference and more of a necessity.\n\nIt also makes two checks unusually important on a used car here: which market the vehicle was built for, and which software region it is running. A US-spec car and a GCC-spec car are not the same vehicle once the ambient temperature passes 40°C, and a car on the wrong region carries the wrong maps, the wrong charging behaviour and sometimes the wrong connector assumptions.",
+      "points": [
+        "Free Tesla destination chargers sit in the basement at City Centre Bahrain — Type 1, 3.2 kW, and usable by any car",
+        "Imported cars frequently need region reconfiguration before navigation and connectivity behave",
+        "Battery state-of-health testing before purchase is worth more here than anywhere, because there is no dealer to arbitrate"
+      ]
+    },
+    "ar": {
+      "heading": "تسلا في البحرين",
+      "body": "لا تملك تسلا وكالة رسمية في البحرين. فالسيارات تصل عبر المستوردين والشراء الخاص، وعدد منها يعبر جسر الملك فهد من السعودية. وهذا يجعل الصيانة المستقلة ضرورة لا تفضيلاً.\n\nكما يجعل فحصين مهمين بشكل استثنائي في السيارة المستعملة هنا: لأي سوق صُنعت، وعلى أي إقليم برمجي تعمل. فسيارة بمواصفات أمريكية وأخرى خليجية ليستا سواء حين تتجاوز الحرارة 40 درجة.",
+      "points": [
+        "شواحن تسلا المجانية موجودة في الطابق السفلي بسيتي سنتر البحرين — من النوع الأول بقدرة 3.2 كيلوواط، وتصلح لأي سيارة",
+        "السيارات المستوردة تحتاج غالباً إعادة ضبط الإقليم قبل أن تعمل الخرائط والاتصال بشكل صحيح",
+        "فحص صحة البطارية قبل الشراء أهم هنا من أي مكان، لعدم وجود وكيل يفصل في النزاع"
+      ]
+    }
+  },
+
+  "default:brand": {
+    "en": {
+      "heading": "Servicing this brand in Bahrain",
+      "body": "Two things shape electric-vehicle servicing on the island, and neither appears in a manufacturer's handbook.\n\nThe first is heat. Bahrain runs above 40°C for months, with humidity on top, and sustained ambient load is harder on a battery's thermal management than any amount of fast charging. A cooling circuit performing at eighty per cent throws no warning light — it simply ages the pack, and the owner finds out three years later as lost range.\n\nThe second is where the cars come from. A significant share of EVs here are imported rather than bought from a local distributor, which means GCC specification cannot be assumed and the infotainment is often configured for another region entirely.",
+      "points": [
+        "Annual thermal and high-voltage checks matter more here than in the markets these cars were validated in",
+        "Confirm GCC specification on any imported car — cooling calibrated for a cooler climate is the common trap",
+        "Salt air and airborne dust are an island problem: connectors, seals and underbody are worth inspecting"
+      ]
+    },
+    "ar": {
+      "heading": "صيانة هذه العلامة في البحرين",
+      "body": "عاملان يشكّلان صيانة السيارات الكهربائية في الجزيرة، ولا يظهر أي منهما في دليل الشركة الصانعة.\n\nالأول هو الحرارة. تتجاوز حرارة البحرين 40 درجة مئوية لأشهر، مع رطوبة عالية، والحمل الحراري المتواصل أقسى على إدارة البطارية الحرارية من أي شحن سريع. ونظام تبريد يعمل بثمانين بالمئة من كفاءته لا يُشعل ضوء تحذير — بل يُهرم البطارية فقط.\n\nوالثاني هو مصدر السيارات. فنسبة كبيرة من السيارات الكهربائية هنا مستوردة لا مشتراة من موزّع محلي، ما يعني أن المواصفة الخليجية ليست مضمونة.",
+      "points": [
+        "الفحوص الحرارية وفحوص الجهد العالي السنوية أهم هنا من الأسواق التي اختُبرت فيها هذه السيارات",
+        "تحقق من المواصفة الخليجية في أي سيارة مستوردة — فالتبريد المعاير لمناخ أبرد هو الفخ الشائع",
+        "هواء البحر والغبار مشكلة جزيرية: الوصلات والحشوات وأسفل الهيكل تستحق الفحص"
+      ]
+    }
+  },
+
+  "service:services/battery-electrical": {
+    "en": {
+      "heading": "Batteries in a Bahraini summer",
+      "body": "Two different batteries send cars to a workshop here, and they are routinely confused.\n\nThe 12-volt battery is the ordinary lead-acid one under the bonnet. It wakes the car up, and when it dies a perfectly healthy electric car will not respond at all — no lights, no screens, no door unlock. Gulf heat shortens its life considerably: a battery that would last four years in Europe often manages two or three here. It is the most common cause of an EV that appears dead, and the cheapest to fix.\n\nThe high-voltage pack is the expensive one, and it is far more often a sensor, a contactor or a cooling fault than the cells themselves. Replacing a pack because of a faulty sensor is the single most expensive mistake available to an owner in this market.",
+      "points": [
+        "Check the 12-volt battery before anything else — it explains most 'my EV is dead' calls",
+        "A pack that keeps the 12-volt flat has a DC-DC converter or parasitic drain problem, not a battery problem",
+        "Insist on seeing a diagnostic report before accepting any quote for pack replacement"
+      ]
+    },
+    "ar": {
+      "heading": "البطاريات في صيف البحرين",
+      "body": "بطاريتان مختلفتان ترسلان السيارات إلى الورشة هنا، وكثيراً ما يُخلط بينهما.\n\nبطارية 12 فولت هي بطارية الرصاص العادية تحت غطاء المحرك. هي التي توقظ السيارة، وعند تلفها لن تستجيب سيارة كهربائية سليمة تماماً — لا أضواء ولا شاشات ولا فتح أبواب. وحرارة الخليج تقصّر عمرها بوضوح: بطارية تدوم أربع سنوات في أوروبا كثيراً ما تدوم سنتين أو ثلاثاً هنا.\n\nأما بطارية الجهد العالي فهي المكلفة، والعطل فيها يكون غالباً في حسّاس أو مفتاح قدرة أو نظام تبريد لا في الخلايا نفسها.",
+      "points": [
+        "افحص بطارية 12 فولت قبل أي شيء — فهي تفسّر معظم بلاغات توقف السيارة",
+        "إن استمرت بطارية 12 فولت في النفاد فالمشكلة في محوّل DC-DC أو تسريب كهربائي لا في البطارية",
+        "أصرّ على رؤية تقرير تشخيصي قبل قبول أي عرض لاستبدال البطارية"
+      ]
+    }
+  },
+
+  "service:services/mechanical/ac-hvac-service": {
+    "en": {
+      "heading": "Air conditioning on an island this hot",
+      "body": "Car air conditioning in Bahrain is not a comfort system, it is the component most likely to be running at full load for six months of the year. And on an electric car it is doing two jobs at once: cooling the cabin and, through a shared circuit on many models, helping manage the battery's temperature.\n\nThat is why an AC fault on an EV is rarely only an AC fault. A failing compressor or a slow refrigerant leak shows up first as weak cold air and later as a thermal-management warning, reduced charging speed, or accelerated battery ageing. Humidity makes it worse: a system that cannot dehumidify properly fogs up and corrodes.",
+      "points": [
+        "On many EVs the AC and the battery cooling share a circuit — a leak is a battery problem waiting to happen",
+        "Heat-pump systems used on newer EVs need different diagnostics from a conventional compressor",
+        "Salt air accelerates condenser corrosion; it is worth inspecting before summer rather than during it"
+      ]
+    },
+    "ar": {
+      "heading": "التكييف في جزيرة بهذه الحرارة",
+      "body": "تكييف السيارة في البحرين ليس نظام رفاهية، بل هو المكوّن الأكثر احتمالاً للعمل بحمل كامل ستة أشهر في السنة. وفي السيارة الكهربائية يؤدي وظيفتين معاً: تبريد المقصورة، والمساهمة عبر دائرة مشتركة في كثير من الطرازات في إدارة حرارة البطارية.\n\nلذلك نادراً ما يكون عطل التكييف في سيارة كهربائية عطل تكييف فقط. فالضاغط المتهالك أو التسرب البطيء يظهر أولاً كبرودة ضعيفة ثم كتحذير حراري أو بطء في الشحن أو تسارع في تدهور البطارية.",
+      "points": [
+        "في كثير من السيارات الكهربائية يتشارك التكييف وتبريد البطارية الدائرة نفسها — والتسرب مشكلة بطارية مؤجلة",
+        "أنظمة المضخة الحرارية في السيارات الأحدث تحتاج تشخيصاً مختلفاً عن الضاغط التقليدي",
+        "هواء البحر يسرّع تآكل المكثف، ويستحق الفحص قبل الصيف لا خلاله"
+      ]
+    }
+  },
+
+  "default:service": {
+    "en": {
+      "heading": "What this means in Bahrain",
+      "body": "Bahrain is a small island with a concentrated vehicle parc, which changes the shape of this work. One properly equipped centre can cover the whole country, so there is no reason to accept a long wait or a part-finished job from somewhere that only handles half an electric car.\n\nThe local variables are heat, humidity and salt air — sustained ambient load on cooling systems, faster corrosion at connectors and seals, and a summer that lasts long enough to turn a small fault into an expensive one. The national charging network, mapped at goEV.bh, is expanding toward a planned 200-plus points, which means more cars and more of this work every year.",
+      "points": [
+        "One site covers the island — Manama, Riffa, Muharraq, Salmabad, Sitra and Isa Town are all within reach",
+        "Book heat-sensitive work before summer rather than during it",
+        "Imported and causeway-sourced cars need their specification confirmed before anything else"
+      ]
+    },
+    "ar": {
+      "heading": "ماذا يعني هذا في البحرين",
+      "body": "البحرين جزيرة صغيرة بأسطول مركبات مركّز، وهذا يغيّر شكل هذا العمل. فمركز واحد مجهز جيداً يغطي الدولة كاملة، ولا داعي لقبول انتظار طويل أو عمل ناقص من مكان يتعامل مع نصف السيارة الكهربائية فقط.\n\nوالمتغيرات المحلية هي الحرارة والرطوبة وهواء البحر — حمل حراري متواصل على أنظمة التبريد، وتآكل أسرع في الوصلات والحشوات، وصيف يطول بما يكفي لتحويل عطل صغير إلى عطل مكلف.",
+      "points": [
+        "موقع واحد يغطي الجزيرة — المنامة والرفاع والمحرق وسلماباد وسترة ومدينة عيسى جميعها في المتناول",
+        "احجز الأعمال الحساسة للحرارة قبل الصيف لا خلاله",
+        "السيارات المستوردة والقادمة عبر الجسر تحتاج تأكيد مواصفتها قبل أي شيء"
+      ]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "_comment": "Two further sections for brand, model, category and leaf-service pages, so no page carries fewer than three Bahrain-specific blocks. Keyed by kind; the symptom lists target long-tail searches a Bahraini owner actually types.",
+
+  "faults": {
+    "brand": {
+      "en": {
+        "eyebrow": "What we see",
+        "heading": "The faults that bring these cars in",
+        "intro": "Four patterns account for most of the work on electric cars in this climate. None of them is exotic, and three of the four are cheaper than owners fear.",
+        "items": [
+          { "title": "The car is completely dead", "body": "No lights, no screens, no door unlock. Almost always the 12-volt battery, not the main pack — and in Gulf heat it is the most common fault there is." },
+          { "title": "Range has quietly dropped", "body": "Usually thermal, not cells. A cooling circuit running below par ages a pack without ever throwing a warning light." },
+          { "title": "It will not charge, but it drives", "body": "Charge port, cable, locking pin or on-board charger. The pack is fine; the thing in front of it is not." },
+          { "title": "Warnings on an imported car", "body": "Often software rather than hardware — wrong-region configuration, or a module left in a bad state by an interrupted update." }
+        ]
+      },
+      "ar": {
+        "eyebrow": "ما نراه",
+        "heading": "الأعطال التي تُحضر هذه السيارات إلينا",
+        "intro": "أربعة أنماط تمثل معظم العمل على السيارات الكهربائية في هذا المناخ. ولا شيء منها غريب، وثلاثة من الأربعة أرخص مما يخشاه الملاك.",
+        "items": [
+          { "title": "السيارة متوقفة تماماً", "body": "لا أضواء ولا شاشات ولا فتح أبواب. والسبب غالباً بطارية 12 فولت لا البطارية الرئيسية — وهي في حر الخليج أشيع عطل على الإطلاق." },
+          { "title": "المدى انخفض بهدوء", "body": "السبب حراري عادةً لا في الخلايا. فدائرة تبريد تعمل بأقل من كفاءتها تُهرم البطارية دون أن تُشعل ضوء تحذير." },
+          { "title": "لا تشحن لكنها تسير", "body": "منفذ الشحن أو الكابل أو مسمار القفل أو الشاحن الداخلي. البطارية سليمة، وما أمامها ليس كذلك." },
+          { "title": "تحذيرات في سيارة مستوردة", "body": "برمجيات غالباً لا قطع — ضبط إقليم خاطئ، أو وحدة تحكم عالقة بعد تحديث انقطع." }
+        ]
+      }
+    },
+
+    "service": {
+      "en": {
+        "eyebrow": "What we see",
+        "heading": "When this work is usually needed",
+        "intro": "Bahrain's climate moves the timing of most of this forward. These are the signs worth acting on before summer rather than during it.",
+        "items": [
+          { "title": "Before the heat arrives", "body": "Cooling, air conditioning and battery thermal checks are worth doing in spring. A marginal system survives March and fails in July." },
+          { "title": "After a long stand", "body": "A car left for weeks in an open car park loses more charge and ages faster here than the manual assumes. Check both batteries before driving it." },
+          { "title": "On an imported car, first", "body": "Specification, software region and warranty position before anything else — all three change what the right repair is." },
+          { "title": "When something changed", "body": "A new noise, a slower charge, a warning that clears itself. Intermittent faults are cheapest to fix while they are still intermittent." }
+        ]
+      },
+      "ar": {
+        "eyebrow": "ما نراه",
+        "heading": "متى يُحتاج هذا العمل عادةً",
+        "intro": "مناخ البحرين يقدّم توقيت معظم هذا. وهذه علامات تستحق التصرف قبل الصيف لا خلاله.",
+        "items": [
+          { "title": "قبل قدوم الحر", "body": "فحوص التبريد والتكييف وحرارة البطارية تستحق الإنجاز في الربيع. فالنظام الحدّي ينجو في مارس ويتعطل في يوليو." },
+          { "title": "بعد وقوف طويل", "body": "السيارة المتروكة أسابيع في موقف مكشوف تفقد شحناً أكثر وتتدهور أسرع مما يفترضه الدليل. افحص البطاريتين قبل قيادتها." },
+          { "title": "في السيارة المستوردة، أولاً", "body": "المواصفة والإقليم البرمجي وموقف الضمان قبل أي شيء — فثلاثتها تغيّر ما هو الإصلاح الصحيح." },
+          { "title": "عندما يتغير شيء", "body": "صوت جديد، أو شحن أبطأ، أو تحذير يختفي وحده. والأعطال المتقطعة أرخص إصلاحاً وهي ما زالت متقطعة." }
+        ]
+      }
+    }
+  },
+
+  "process": {
+    "en": {
+      "eyebrow": "How it works",
+      "heading": "What a visit will look like",
+      "intro": "The centre has not opened yet, so this is what we are building toward rather than what you can book today.",
+      "steps": [
+        { "n": "01", "title": "Tell us the symptom", "body": "Not the diagnosis. What the car is doing, when it started, and whether anything changed before it did." },
+        { "n": "02", "title": "Diagnostic first", "body": "Platform-specific tooling, not a generic scanner. You get the report, including the codes, whatever you decide to do next." },
+        { "n": "03", "title": "A quote you can read", "body": "What is wrong, what it costs, and what happens if you leave it. If a repair is viable instead of a replacement, we will say so." },
+        { "n": "04", "title": "The work, and the record", "body": "Dated invoice, parts specification and a written description — which is what protects your warranty position and your resale value." }
+      ]
+    },
+    "ar": {
+      "eyebrow": "كيف تسير",
+      "heading": "كيف ستبدو الزيارة",
+      "intro": "لم يفتتح المركز بعد، لذا هذا ما نبنيه لا ما يمكنك حجزه اليوم.",
+      "steps": [
+        { "n": "٠١", "title": "أخبرنا بالعرض", "body": "لا بالتشخيص. ماذا تفعل السيارة، ومتى بدأ ذلك، وهل تغيّر شيء قبله." },
+        { "n": "٠٢", "title": "التشخيص أولاً", "body": "أدوات خاصة بالمنصة لا جهاز فحص عام. وتحصل على التقرير بما فيه الرموز، مهما قررت بعد ذلك." },
+        { "n": "٠٣", "title": "عرض سعر مفهوم", "body": "ما العطل، وكم يكلّف، وماذا يحدث إن تركته. وإن كان الإصلاح ممكناً بدل الاستبدال فسنقول ذلك." },
+        { "n": "٠٤", "title": "العمل، والسجل", "body": "فاتورة مؤرخة ومواصفات القطع ووصف مكتوب — وهو ما يحمي موقف ضمانك وقيمة إعادة بيعك." }
+      ]
+    }
+  }
+}
